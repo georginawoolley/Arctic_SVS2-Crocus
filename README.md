@@ -1,7 +1,7 @@
 # Arctic_SVS2-Crocus
 Code and data for _Ensemble modelling of Arctic tundra snowpack properties_, Woolley et al., [DOI Pending]
 
-Ensemble output to create figures can be found at: 10.6084/m9.figshare.25639215
+Ensemble output to create figures can be found at: (https://doi.org/10.6084/m9.figshare.25639215.v2)
 
 # Abstract 
 
@@ -24,7 +24,7 @@ Sophisticated snowpack models such as Crocus and SNOWPACK struggle to properly s
 
 ## In order to create figures:
 
-1. Download all files from 10.6084/m9.figshare.25639215 and TVC_Snow_Measurements - these contain the ensemble output required to create figures and measurements of snowpack properties.
+1. Download all files from (https://doi.org/10.6084/m9.figshare.25639215.v2) and TVC_Snow_Measurements - these contain the ensemble output required to create figures and measurements of snowpack properties.
    
 2. Run SD_SWE_BD_Fig_Code.m for evaluation of bulk snowpack properties, requires Raw_SD_SWE_BD.nc & jbfill.m (figures 2, 3, appendix B1, B2, B3).
    
