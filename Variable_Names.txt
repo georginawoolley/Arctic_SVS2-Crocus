@@ -1,0 +1,70 @@
+Read Me – Multi-physics ensemble modelling of Arctic tundra snowpack properties
+Variables are as follows;-
+RAW_SD_SWE_BD.nc
+Rows = 1st Sep 1991 07:00 UTC – 1ST Sep 2023 06:00 UTC
+Columns = Ensemble Member 1-120
+Arctic_SWE_Data = Raw Arctic SVS2-Crocus ensemble output of SWE (mm, 1991-2023).
+Default_SWE_Data = Raw default SVS2-Crocus ensemble output of SWE (mm, 1991-2023).
+Arctic_SD_Data = Raw Arctic SVS2-Crocus ensemble output of snow depth (m, 1991-2023).
+Default_SD_Data = Raw default SVS2-Crocus ensemble output of snow depth (m, 1991-2023).
+Arctic_BD_Data = Raw Arctic SVS2-Crocus ensemble output of bulk density (kg m-3, 1991-2023).
+Default_BD_Data = Raw default SVS2-Crocus ensemble output of bulk density (kg m-3, 1991-2023).
+Density_SSA_Profiles.nc
+Rows = Normalized Depths 1-401
+Columns = Ensemble Member 1-120
+Normalized_depths = Normalized depths for plotting of profiles.
+Density_Arctic_Jan2019/SSA_Arctic_Jan2019 & Density_Default_Jan2019/SSA_Default_Jan2019 & Density_Mixed_Jan2019/SSA_Mixed_Jan2019 = Raw density/SSA profile simulated by Arctic, Default and Mixed SVS2-Crocus (mean of 19th – 25th January 2019).
+Density_Arctic_Mar2018/SSA_Arctic_Mar2018 & Density_Default_Mar2018/SSA_Default_Mar2018 & Density_Mixed_Mar2018/SSA_Mixed_Mar2018 = Raw density/SSA profile simulated by Arctic, Default and Mixed SVS2-Crocus (16th March 2018).
+Density_Arctic_Mar2019/SSA_Arctic_Mar2019 & Density_Default_Mar2019/SSA_Default_Mar2019  & Density_Mixed_Mar2019/SSA_Mixed_Mar2019 = Raw density/SSA profile simulated by Arctic, Default and Mixed SVS2-Crocus (26th March 2019).
+Density_Arctic_Mar2022/SSA_Arctic_Mar2022  & Density_Default_Mar2022/SSA_Default_Mar2022  & Density_Mixed_Mar2022/SSA_Mixed_Mar2022 = Raw density/SSA profile simulated by Arctic, Default and Mixed SVS2-Crocus (21st March 2022).
+Density_Arctic_Mar2023/SSA_Arctic_Mar2023 & Density_Default_Mar2023/SSA_Default_Mar2023  & Density_Mixed_Mar2023/SSA_Mixed_Mar2023 = Raw density/SSA profile simulated by Arctic, Default and Mixed SVS2-Crocus (27th March 2023).
+Density_Arctic_Nov2018/SSA_Arctic_Nov2018 & Density_Default_Nov2018/SSA_Default_Nov2018  & Density_Mixed_Nov2018/SSA_Mixed_Nov2018 = Raw density/SSA profile simulated by Arctic, Default and Mixed SVS2-Crocus (mean of 15th - 18th November 2018).
+CRPS_Scores.nc
+CRPS_Arc_Jan2019_Density & CRPS_Def_Jan2019_Density & CRPS_Mixed_Jan2019_Density  = Mean CRPS scores for the simulation of density by Arctic, Default and Mixed SVS2-Crocus (19th – 25th January 2019).
+CRPS_Arc_Jan2019_SSA & CRPS_Def_Jan2019_SSA & CRPS_Mixed_Jan2019_SSA = Mean CRPS scores for the simulation of SSA by Arctic, Default and Mixed SVS2-Crocus (19th – 25th January 2019).
+CRPS_Arc_Mar2018_Density & CRPS_Def_Mar2018_Density & CRPS_Mixed_Mar2018_Density  = Mean CRPS scores for the simulation of density by Arctic, Default and Mixed SVS2-Crocus (16th March 2018).
+CRPS_Arc_Mar2018_SSA & CRPS_Def_Mar2018_SSA & CRPS_Mixed_Mar2018_SSA = Mean CRPS scores for the simulation of SSA by Arctic, Default and Mixed SVS2-Crocus (16th March 2018).
+CRPS_Arc_Mar2019_Density & CRPS_Def_Mar2019_Density & CRPS_Mixed_Mar2019_Density  = Mean CRPS scores for the simulation of density by Arctic, Default and Mixed SVS2-Crocus (26th March 2019).
+CRPS_Arc_Mar2019_SSA & CRPS_Def_Mar2019_SSA & CRPS_Mixed_Mar2019_SSA = Mean CRPS scores for the simulation of SSA by Arctic, Default and Mixed SVS2-Crocus (26th March 2019).
+CRPS_Arc_Mar2022_Density & CRPS_Def_Mar2022_Density & CRPS_Mixed_Mar2022_Density  = Mean CRPS scores for the simulation of density by Arctic, Default and Mixed SVS2-Crocus (21st March 2022).
+CRPS_Arc_Mar2022_SSA & CRPS_Def_Mar2022_SSA & CRPS_Mixed_Mar2022_SSA = Mean CRPS scores for the simulation of SSA by Arctic, Default and Mixed SVS2-Crocus (21st March 2022).
+CRPS_Arc_Mar2023_Density & CRPS_Def_Mar2023_Density & CRPS_Mixed_Mar2023_Density  = Mean CRPS scores for the simulation of density by Arctic, Default and Mixed SVS2-Crocus (27th March 2023).
+CRPS_Arc_Mar2023_SSA & CRPS_Def_Mar2023_SSA & CRPS_Mixed_Mar2023_SSA = Mean CRPS scores for the simulation of SSA by Arctic, Default and Mixed SVS2-Crocus (27th March 2023).
+CRPS_Arc_Nov2018_Density & CRPS_Def_Nov2018_Density & CRPS_Mixed_Nov2018_Density  = Mean CRPS scores for the simulation of density by Arctic, Default and Mixed SVS2-Crocus (15th - 18th November 2018).
+CRPS_Arc_Nov2018_SSA & CRPS_Def_Nov2018_SSA & CRPS_Mixed_Nov2018_SSA = Mean CRPS scores for the simulation of SSA by Arctic, Default and Mixed SVS2-Crocus (15th - 18th November 2018).
+Measured_Density_SSA.nc
+normalised_depth = 1:401
+depth_profile… = refers to the number of pit profiles within the dataset.
+a_Final_Pit_Jan2019 = Normalized density measurements from 19th – 25th January 2019. 
+b_Final_Pit_Jan2019 = Normalized depth profile from 19th – 25th January 2019.
+a_Final_Pit_Mar2018 = Normalized density measurements from 16th March 2018. 
+b_Final_Pit_Mar2018 = Normalized depth profile 16th March 2018.
+a_Final_Pit_Mar2019 = Normalized density measurements from 26th March 2019. 
+b_Final_Pit_Mar2019 = Normalized depth profile 26th March 2019.
+a_Final_Pit_Mar2022 = Normalized density measurements from 21st March 2022. 
+b_Final_Pit_Mar2022 = Normalized depth profile 21st March 2022.
+a_Final_Pit_Mar2023 = Normalized density measurements from 27th March 2023. 
+b_Final_Pit_Mar2023 = Normalized depth profile 27th March 2023.
+a_Final_Pit_Nov2018 = Normalized density measurements from 15th – 18th November 2018.
+b_Final_Pit_Nov2018 = Normalized depth profile 15th – 18th November 2018.
+SSA_a_Final_Pit_Jan2019 = Normalized SSA measurements from 19th – 25th January 2019. 
+SSA_b_Final_Pit_Jan2019 = Normalized depth profile from 19th – 25th January 2019.
+SSA_a_Final_Pit_Mar2018 = Normalized SSA measurements from 16th March 2018. 
+SSA_b_Final_Pit_Mar2018 = Normalized depth profile 16th March 2018.
+SSA_a_Final_Pit_Mar2019 = Normalized SSA measurements from 26th March 2019. 
+SSA_b_Final_Pit_Mar2019 = Normalized depth profile 26th March 2019.
+SSA_a_Final_Pit_Mar2022 = Normalized SSA measurements from 21st March 2022. 
+SSA_b_Final_Pit_Mar2022 = Normalized depth profile 21st March 2022.
+SSA_a_Final_Pit_Mar2023 = Normalized SSA measurements from 27th March 2023. 
+SSA_b_Final_Pit_Mar2023 = Normalized depth profile 27th March 2023.
+SSA_a_Final_Pit_Nov2018 = Normalized SSA measurements from 15th – 18th November 2018.
+SSA_b_Final_Pit_Nov2018 = Normalized depth profile 15th – 18th November 2018.
+
+
+
+
+
+
+
+
+
