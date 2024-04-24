@@ -20,7 +20,6 @@ Sophisticated snowpack models such as Crocus and SNOWPACK struggle to properly s
 - README.md (this file)
 - Variable_Names.txt = Contains breakdown of variable names within netcdf files.
 - jbfill.m* = Matlab function to shade areas between curves.
-- crps.m** = Matlab function to calculate the CRPS.
 
 ## In order to create figures:
 
@@ -32,14 +31,13 @@ Sophisticated snowpack models such as Crocus and SNOWPACK struggle to properly s
    
 4. Run SSA_Evaluation.m for evaluation of SSA profiles, requires Density_SSA_Profiles.nc, Measured_Density_SSA.nc & jbfill.m (figures 5 & 7).
    
-5. Run Ranked_CRPS_Density.m for ranking of ensemble members for simulation of snow density, requires CRPS_Scores.nc, Measured_Density_SSA.nc and crps.m (figures 8 & 9).
+5. Run Ranked_CRPS_Density.m for ranking of ensemble members for simulation of snow density, requires CRPS_Scores.nc, Measured_Density_SSA.nc (figures 8 & 9).
     
-6. Run Ranked_CRPS_SSA.m for ranking of ensemble members for simulation of SSA, requires CRPS_Scores.nc, Measured_Density_SSA.nc and crps.m (supplementary material S1 & S2).
+6. Run Ranked_CRPS_SSA.m for ranking of ensemble members for simulation of SSA, requires CRPS_Scores.nc, Measured_Density_SSA.nc (supplementary material S1 & S2).
 
 ## Matlab Functions
 
 *John Bockstege (2024). Shade area between two curves (https://www.mathworks.com/matlabcentral/fileexchange/13188-shade-area-between-two-curves), MATLAB Central File Exchange. Retrieved April 24, 2024.
 
-**Durga Lal Shrestha (2024). Continuous rank probability score (https://www.mathworks.com/matlabcentral/fileexchange/47807-continuous-rank-probability-score), MATLAB Central File Exchange. Retrieved April 24, 2024.
 
 
