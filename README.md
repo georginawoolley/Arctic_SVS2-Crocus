@@ -9,20 +9,20 @@ Sophisticated snowpack models such as Crocus and SNOWPACK struggle to properly s
 
 # GitRepo Breakdown
 
-The gitrepo contains 3 subfolders: 
+## The gitrepo contains 3 subfolders: 
 
 Code_For_Figures = Contains matlab code to create all figures.
 Ensemble_Members = Contains text files of raw ensemble members.
 TVC_Snow_Measurements = Contains dataset of measured snowpack properties.
 
-and 2 files: 
+## and 2 files: 
 
 README.md (this file)
 Variable_Names.txt = Contains breakdown of variable names within netcdf files.
 jbfill* = Matlab function to shade areas between curves.
 crps** = Matlab function to calculate the CRPS.
 
-In order to create figures:
+## In order to create figures:
 
 1. Download all netcdf files from 10.6084/m9.figshare.25639215 - these contain the ensemble output required to create figures and measurements of snowpack properties.
 2. Run SD_SWE_BD_Fig_Code.m for evaluation of bulk snowpack properties (figures 2, 3, appendix B1, B2, B3).
@@ -31,7 +31,9 @@ In order to create figures:
 5. Run Ranked_CRPS_Density.m for ranking of ensemble members for simulation of snow density (figures 8 & 9).
 6. Run Ranked_CRPS_SSA.m for ranking of ensemble members for simulation of SSA (supplementary material S1 & S2).
 
-* John Bockstege (2024). Shade area between two curves (https://www.mathworks.com/matlabcentral/fileexchange/13188-shade-area-between-two-curves), MATLAB Central File Exchange. Retrieved April 24, 2024.
-* * Durga Lal Shrestha (2024). Continuous rank probability score (https://www.mathworks.com/matlabcentral/fileexchange/47807-continuous-rank-probability-score), MATLAB Central File Exchange. Retrieved April 24, 2024.
+## Matlab Functions
+
+*John Bockstege (2024). Shade area between two curves (https://www.mathworks.com/matlabcentral/fileexchange/13188-shade-area-between-two-curves), MATLAB Central File Exchange. Retrieved April 24, 2024.
+**Durga Lal Shrestha (2024). Continuous rank probability score (https://www.mathworks.com/matlabcentral/fileexchange/47807-continuous-rank-probability-score), MATLAB Central File Exchange. Retrieved April 24, 2024.
 
 
