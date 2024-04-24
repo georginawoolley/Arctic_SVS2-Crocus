@@ -15,7 +15,7 @@ Sophisticated snowpack models such as Crocus and SNOWPACK struggle to properly s
 - Ensemble_Members = Contains text files of raw ensemble members.
 - TVC_Snow_Measurements = Contains dataset of measured snowpack properties.
 
-## and 4 files: 
+## and 3 files: 
 
 - README.md (this file)
 - Variable_Names.txt = Contains breakdown of variable names within netcdf files.
