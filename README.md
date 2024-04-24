@@ -1,4 +1,4 @@
-# TVC_SVS2-Crocus_Arctic_Ensemble
+# Arctic_SVS2-Crocus
 Code and data for _Ensemble modelling of Arctic tundra snowpack properties_, Woolley et al., [DOI Pending]
 
 Ensemble output to create figures can be found at: 10.6084/m9.figshare.25639215
