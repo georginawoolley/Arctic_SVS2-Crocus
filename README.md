@@ -11,16 +11,16 @@ Sophisticated snowpack models such as Crocus and SNOWPACK struggle to properly s
 
 ## The gitrepo contains 3 subfolders: 
 
-Code_For_Figures = Contains matlab code to create all figures.
-Ensemble_Members = Contains text files of raw ensemble members.
-TVC_Snow_Measurements = Contains dataset of measured snowpack properties.
+- Code_For_Figures = Contains matlab code to create all figures.
+- Ensemble_Members = Contains text files of raw ensemble members.
+- TVC_Snow_Measurements = Contains dataset of measured snowpack properties.
 
-## and 2 files: 
+## and 4 files: 
 
-README.md (this file)
-Variable_Names.txt = Contains breakdown of variable names within netcdf files.
-jbfill* = Matlab function to shade areas between curves.
-crps** = Matlab function to calculate the CRPS.
+- README.md (this file)
+- Variable_Names.txt = Contains breakdown of variable names within netcdf files.
+- jbfill.m* = Matlab function to shade areas between curves.
+- crps.m** = Matlab function to calculate the CRPS.
 
 ## In order to create figures:
 
